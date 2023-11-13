@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>지하철 역 상세 정보</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="/metro/station-detail.js" defer></script>
+</head>
+<body>
+
+    <div class="station-detail-header">
+        <a href="home.html" class="btn btn-light">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <h1 id="station-name">역 이름</h1>
+    </div>
+
+    
+    <div class="station-detail-container">
+        <div class="prev-station">
+            <button class="station-button">
+                <span class="arrow-icon left">&#9664;</span>
+                <span class="station-name">이전 역</span>
+            </button>
+        </div>
+        <div class="current-station line-placeholder">
+            <span class="station-name">현재 역</span>
+        </div>
+        
+        <div class="next-station">
+            <button class="station-button">
+                <span class="station-name">다음 역</span>
+                <span class="arrow-icon right">&#9654;</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- 방향 및 도착 시간 표시를 위한 새로운 섹션 -->
+    <div class="direction-section">
+        <div class="direction-block">
+            <h3>성수(외선) 방면</h3>
+            <div class="arrival-time" onclick="location.href='congestion.html'">
+                <span class="station-arrival-name">신도림</span>
+                <span class="station-arrival-remaining-time">3분</span>
+            </div>
+            <div class="arrival-time" onclick="location.href='congestion.html'">
+                <span class="station-arrival-name">성수(외선)</span>
+                <span class="station-arrival-remaining-time">11분</span>
+            </div>
+        </div>
+        <div class="direction-block">
+            <h3>성수(내선) 방면</h3>
+            <div class="arrival-time" onclick="location.href='congestion.html'">
+                <span class="station-arrival-name">성수(내선)</span>
+                <span class="station-arrival-remaining-time">2분</span>
+            </div>
+            <div class="arrival-time" onclick="location.href='congestion.html'">
+                <span class="station-arrival-name">성수</span>
+                <span class="station-arrival-remaining-time">5분</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-nav">
+        <a href="home.html" class="nav-item">
+            <i class="fas fa-home"></i>
+        </a>
+        <a href="map.html" class="nav-item">
+            <i class="fas fa-map"></i>
+        </a>
+        <a href="report.html" class="nav-item">
+            <i class="fas fa-flag"></i>
+        </a>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+
+</body>
+</html>

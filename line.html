@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2호선 상세정보</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .timeline::before, .timeline::after {
+            background-color: #009D3E; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <nav class="navbar fixed-top navbar-light bg-light">
+            <a href="home.html" class="btn btn-light">
+                <i class="fas fa-chevron-left"></i>
+            </a>
+            <h2 class="centered-title">2호선</h2>
+        </nav>
+        <div class="timeline" id="line-timeline" data-line="02호선">
+            <!-- Station elements will be dynamically inserted here -->
+        </div>
+    </div>
+    
+    <div class="bottom-nav">
+        <a href="home.html" class="nav-item">
+            <i class="fas fa-home"></i>
+        </a>
+        <a href="map.html" class="nav-item">
+            <i class="fas fa-map"></i>
+        </a>
+        <a href="report.html" class="nav-item">
+            <i class="fas fa-flag"></i>
+        </a>
+    </div>
+
+    <script src="stations.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+[
+    {
+      "line": "03호선",
+      "fr_code": "312",
+      "status": "arriving"
+    },
+    {
+      "line": "03호선",
+      "fr_code": "319",
+      "status": "departing"
+    }
+  ]
+  
