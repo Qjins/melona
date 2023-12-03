@@ -60,6 +60,20 @@ body {
 .line7 .color-bar { background-color: #747F00; }
 .line8 .color-bar { background-color: #EA545D; }
 .line9 .color-bar { background-color: #A17E46; }
+.lineGyeonguiJungang .color-bar { background-color: #7cc4a5; }
+.lineAirportRailroad .color-bar { background-color: #73b6e4; }
+.lineGyeongchun .color-bar { background-color: #08af7b; }
+.lineSuinBundang .color-bar { background-color: #EBA900; }
+.lineShinbundang .color-bar { background-color: #a71e31; }
+.lineUiSinseol .color-bar { background-color: #c6c100; }
+.lineSeohae .color-bar { background-color: #8bc53f; }
+.lineGyeonggang .color-bar { background-color: #2673f2; }
+.lineGimpoGold .color-bar { background-color: #96710A; }
+.lineSinrim .color-bar { background-color: #4e67a5; }
+.lineEverline .color-bar { background-color: #77c371; }
+.lineUijeongbu .color-bar { background-color: #ff9d27; }
+.lineInc1 .color-bar { background-color: #6f99d0; }
+.lineInc2 .color-bar { background-color: #F4AB3E; }
 
 /* 타임라인 스타일 */
 .timeline {
@@ -121,7 +135,20 @@ body {
 .line7 .timeline::before, .line7 .timeline::after { background-color: #747F00; }
 .line8 .timeline::before, .line8 .timeline::after { background-color: #EA545D; }
 .line9 .timeline::before, .line9 .timeline::after { background-color: #A17E46; }
-
+.lineGyeonguiJungang .timeline::before, .lineGyeonguiJungang .timeline::after { background-color: #7cc4a5; }
+.lineAirportRailroad .timeline::before, .lineAirportRailroad .timeline::after { background-color: #73b6e4; }
+.lineGyeongchun .timeline::before, .lineGyeongchun .timeline::after { background-color: #08af7b; }
+.lineSuinBundang .timeline::before, .lineSuinBundang .timeline::after { background-color: #EBA900; }
+.lineShinbundang .timeline::before, .lineShinbundang .timeline::after { background-color: #a71e31; }
+.lineUiSinseol .timeline::before, .lineUiSinseol .timeline::after { background-color: #c6c100; }
+.lineSeohae .timeline::before, .lineSeohae .timeline::after { background-color: #8bc53f; }
+.lineGyeonggang .timeline::before, .lineGyeonggang .timeline::after { background-color: #2673f2; }
+.lineGimpoGold .timeline::before, .lineGimpoGold .timeline::after { background-color: #96710A; }
+.lineSinrim .timeline::before, .lineSinrim .timeline::after { background-color: #4e67a5; }
+.lineEverline .timeline::before, .lineEverline .timeline::after { background-color: #77c371; }
+.lineUijeongbu .timeline::before, .lineUijeongbu .timeline::after { background-color: #ff9d27; }
+.lineInc1 .timeline::before, .lineInc1 .timeline::after { background-color: #6f99d0; }
+.lineInc2 .timeline::before, .lineInc2 .timeline::after { background-color: #F4AB3E; }
 
 /* 역 노드 스타일 */
 .station {
